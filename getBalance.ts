@@ -1,5 +1,5 @@
 /**
- * Create a BankAccount class that:
+ * Create a BankAccount class that :
  *
  * - Has a balance field of type number, initialized in the constructor
  * - Includes a deposit(amount: number) method that increases the balance
