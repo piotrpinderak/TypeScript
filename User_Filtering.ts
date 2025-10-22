@@ -79,4 +79,4 @@ const testUserss: User[] = [
   { name: "Ela", age: 18, active: true },
 ];
 
-console.log(getEligibleUserNamess(testUserss)); //
+console.log(getEligibleUserNamess(testUserss));
