@@ -1,0 +1,8 @@
+# Ignoruj pliki generowane przez TypeScript
+*.js
+*.js.map
+*.d.ts
+*.d.ts.map
+
+# Ignoruj folder kompilacji (jeśli używasz outDir)
+dist/
