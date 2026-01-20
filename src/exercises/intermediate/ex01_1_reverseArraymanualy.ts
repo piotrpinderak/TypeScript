@@ -1,4 +1,4 @@
-function reverseArray<T>(arr: T[]): T[] {
+function reverseArrayManualy<T>(arr: T[]): T[] {
   const result: T[] = [];
   for (let i = arr.length - 1; i >= 0; i--) {
     result.push(arr[i]);
@@ -7,7 +7,7 @@ function reverseArray<T>(arr: T[]): T[] {
 }
 
 const liczby = [1, 2, 3, 4, 5, 9999999999];
-console.log(reverseArray(liczby));
+console.log(reverseArrayManualy(liczby));
 
 const litery = ["W","O","J","T","E","K"];
-console.log(reverseArray(litery));
+console.log(reverseArrayManualy(litery));
