@@ -4,5 +4,6 @@
 *.d.ts
 *.d.ts.map
 
-# Ignoruj folder kompilacji (jeśli używasz outDir)
+# Ignoruj folder kompilacji
 dist/
+node_modules/
