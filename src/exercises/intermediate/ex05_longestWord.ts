@@ -13,11 +13,11 @@ function longestWord(text: string): string {
 }
 
 //Test
-function run(){
+function run0(){
     const input = "Raz dwa trzy cztery pięc szesnaście sześć siedem osiem dziewięć dziesięć"
     const result = longestWord(input);
     console.log(result);
 
 }
 
-run();
+run0();
